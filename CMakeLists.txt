@@ -23,7 +23,7 @@ endif()
 # add_executable(example_10-03 example_10-03.cpp)
 # target_link_libraries(example_10-03 ${OpenCV_LIBS})
 
-add_executable(exercises_10_1 exercise/Exercises_10_1.cpp)
+add_executable(exercises_10_1 src/ch10/exercises_10_1.cpp)
 target_link_libraries(exercises_10_1 ${OpenCV_LIBS})
 
 

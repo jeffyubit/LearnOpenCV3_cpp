@@ -57,10 +57,10 @@ RM = /opt/clion/clion-2021.2.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild"
+CMAKE_SOURCE_DIR = /home/jeff/Learning-OpenCV-3/Learning-OpenCV-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/jeff/Learning-OpenCV-3/Learning-OpenCV-3/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild/cmake-build-debug/CMakeFiles" "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/Learning-OpenCV-3/Learning-OpenCV-3/cmake-build-debug/CMakeFiles /home/jeff/Learning-OpenCV-3/Learning-OpenCV-3/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/Learning-OpenCV-3/Learning-OpenCV-3/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ exercises_10_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercises_10_1.dir/build.make CMakeFiles/exercises_10_1.dir/build
 .PHONY : exercises_10_1/fast
 
-exercise/Exercises_10_1.o: exercise/Exercises_10_1.cpp.o
-.PHONY : exercise/Exercises_10_1.o
+src/ch10/exercises_10_1.o: src/ch10/exercises_10_1.cpp.o
+.PHONY : src/ch10/exercises_10_1.o
 
 # target to build an object file
-exercise/Exercises_10_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercises_10_1.dir/build.make CMakeFiles/exercises_10_1.dir/exercise/Exercises_10_1.cpp.o
-.PHONY : exercise/Exercises_10_1.cpp.o
+src/ch10/exercises_10_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercises_10_1.dir/build.make CMakeFiles/exercises_10_1.dir/src/ch10/exercises_10_1.cpp.o
+.PHONY : src/ch10/exercises_10_1.cpp.o
 
-exercise/Exercises_10_1.i: exercise/Exercises_10_1.cpp.i
-.PHONY : exercise/Exercises_10_1.i
+src/ch10/exercises_10_1.i: src/ch10/exercises_10_1.cpp.i
+.PHONY : src/ch10/exercises_10_1.i
 
 # target to preprocess a source file
-exercise/Exercises_10_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercises_10_1.dir/build.make CMakeFiles/exercises_10_1.dir/exercise/Exercises_10_1.cpp.i
-.PHONY : exercise/Exercises_10_1.cpp.i
+src/ch10/exercises_10_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercises_10_1.dir/build.make CMakeFiles/exercises_10_1.dir/src/ch10/exercises_10_1.cpp.i
+.PHONY : src/ch10/exercises_10_1.cpp.i
 
-exercise/Exercises_10_1.s: exercise/Exercises_10_1.cpp.s
-.PHONY : exercise/Exercises_10_1.s
+src/ch10/exercises_10_1.s: src/ch10/exercises_10_1.cpp.s
+.PHONY : src/ch10/exercises_10_1.s
 
 # target to generate assembly for a file
-exercise/Exercises_10_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercises_10_1.dir/build.make CMakeFiles/exercises_10_1.dir/exercise/Exercises_10_1.cpp.s
-.PHONY : exercise/Exercises_10_1.cpp.s
+src/ch10/exercises_10_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercises_10_1.dir/build.make CMakeFiles/exercises_10_1.dir/src/ch10/exercises_10_1.cpp.s
+.PHONY : src/ch10/exercises_10_1.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... exercises_10_1"
-	@echo "... exercise/Exercises_10_1.o"
-	@echo "... exercise/Exercises_10_1.i"
-	@echo "... exercise/Exercises_10_1.s"
+	@echo "... src/ch10/exercises_10_1.o"
+	@echo "... src/ch10/exercises_10_1.i"
+	@echo "... src/ch10/exercises_10_1.s"
 .PHONY : help
 
 

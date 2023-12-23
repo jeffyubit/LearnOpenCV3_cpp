@@ -359,7 +359,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "exercise/Exercises_10_1.cpp",
+			"path" : "src/ch10/exercises_10_1.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

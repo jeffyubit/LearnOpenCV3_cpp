@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "exercises_10_1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exercises_10_1-Debug-121963d2ad4404c5ffa4.json",
+					"jsonFile" : "target-exercises_10_1-Debug-015398e59754b18a37b5.json",
 					"name" : "exercises_10_1",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild/cmake-build-debug",
-		"source" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild"
+		"build" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3/cmake-build-debug",
+		"source" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3"
 	},
 	"version" : 
 	{

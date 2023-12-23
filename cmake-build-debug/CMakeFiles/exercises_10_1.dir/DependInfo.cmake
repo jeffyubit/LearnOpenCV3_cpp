@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild/exercise/Exercises_10_1.cpp" "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild/cmake-build-debug/CMakeFiles/exercises_10_1.dir/exercise/Exercises_10_1.cpp.o"
+  "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3/src/ch10/exercises_10_1.cpp" "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3/cmake-build-debug/CMakeFiles/exercises_10_1.dir/src/ch10/exercises_10_1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

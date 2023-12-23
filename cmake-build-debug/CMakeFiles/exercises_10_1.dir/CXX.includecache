@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild/exercise/Exercises_10_1.cpp
+/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3/src/ch10/exercises_10_1.cpp
 opencv2/opencv.hpp
 -
 iostream

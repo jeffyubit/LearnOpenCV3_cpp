@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild/cmake-build-debug"
+			"value" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild"
+			"value" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1439,7 +1439,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild/cmake-build-debug"
+			"value" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3/cmake-build-debug"
 		},
 		{
 			"name" : "examples_SOURCE_DIR",
@@ -1451,7 +1451,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3_examples _rebuild"
+			"value" : "/home/jeff/Learning-OpenCV-3/Learning-OpenCV-3"
 		}
 	],
 	"kind" : "cache",
